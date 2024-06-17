@@ -1,0 +1,60 @@
+.stodo{
+   
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ;
+}
+
+.finput{
+    display: block;
+    width: 100%;
+    border: none;
+    color: black;
+    font-size: 16px;
+}
+
+.finput:focus {
+    outline: none;
+}
+
+
+
+.mbutton {
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #007ACC;
+    outline: 3px #007ACC solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    color: white;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 400ms;
+}
+
+.mbutton svg path {
+    transition: 400ms;
+  }
+  
+  .mbutton:hover {
+    background-color: transparent;
+  }
+  
+  .mbutton:hover {
+    color: #007ACC;
+  }
+  
+  .mbutton:hover svg path {
+    fill: #007ACC;
+  }
